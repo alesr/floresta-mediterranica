@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Observação da Natureza</title>
+  <link rel='stylesheet' type='text/css' href='../css/main.css'>
+  <script src='../scripts/leap-0.6.4.min.js'></script>
+  <script src='../scripts/jquery-1.11.2.min.js'></script>
+  <script src='../scripts/leapK.js'></script>
+  <script src='../scripts/natureHover.js'></script>
+  <script src='../scripts/conf.js'></script>
+</head>
+
+<body id='obs_natureza'>
+  <div id='pageBio'>
+    <div class='bottomRow'>
+      <a id='birdwatching' class='floatsBio bio_three' href='content.html#birdwatching'>
+        <img border='0' alt='Birdwatching' src='../images/ObsNatureza/iconBirdwatching.png'>
+      </a>
+      <a id='commingNext1' class='floatsBio bio_three' href='#'>
+        <img border='0' alt='Brevemente' src='../images/ObsNatureza/iconBrevemente.png'>
+      </a>
+      <a id='commingNext2' class='floatsBio bio_three' href='#'>
+        <img border='0' alt='Brevemente' src='../images/ObsNatureza/iconBrevemente.png'>
+      </a>
+    </div>
+  </div>
+</body>
+<script>
+  animation(); // Fade in
+  idleTimeout(); // Return to homepage
+  leapK('nature');   // Leap controller
+</script>
+
+</html>

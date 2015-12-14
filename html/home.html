@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>HOMEPAGE</title>
+  <link rel='stylesheet' type='text/css' href='../css/main.css'>
+  <script src='../scripts/leap-0.6.4.min.js'></script>
+  <script src='../scripts/jquery-1.11.2.min.js'></script>
+  <script src='../scripts/leapK.js'></script>
+  <script src='../scripts/homeHover.js'></script>
+  <script src='../scripts/conf.js'></script>
+</head>
+
+<body id='home'>
+  <div id='page'>
+    <a id='one' class='floats three' href='content.html#mediterranica'>
+      <img border='0' alt='Floresta Mediterrânica' src='../images/Homepage/iconFloresta.png'>
+    </a>
+    <a id='two' class='floats three' href='content.html#espAsuaVolta'>
+      <img border='0' alt='Espécies a sua volta' src='../images/Homepage/iconEspeciesVolta.png'>
+    </a>
+    <a id='three' class='floats three' href='obsNatureza.html'>
+      <img border='0' alt='Observação da Natureza' src='../images/Homepage/iconObservacao.png'>
+    </a>
+    <a id='four' class='floatsBio one' href='biodiversidade.html'>
+      <img border='0' alt='Biodiversidade' src='../images/Homepage/iconBiodiversidade.png'>
+    </a>
+  </div>
+  <div id='clear'></div>
+  <div id='footer'>
+    <div id='logoProder'>
+      <img src='../images/Footer/1logoProder.png' alt='Proder Logo'>
+    </div>
+    <div id='logoGoverno'>
+      <img src='../images/Footer/2logoGoverno.png' alt='Governo Logo'>
+    </div>
+    <div id='logoEuropa'>
+      <img src='../images/Footer/3logoEuropa.png' alt='UE Logo'>
+    </div>
+    <div id='logoRota'>
+      <img src='../images/Footer/4logoRota.png' alt='Rota Logo'>
+    </div>
+    <div id='logoDesde'>
+      <img src='../images/Footer/5logoDesde.png' alt='Desde Logo'>
+    </div>
+    <div id='logoPosto'>
+      <img src='../images/Footer/6logoPosto.png' alt='Posto Logo'>
+    </div>
+    <div>
+      <p id='textoFooter'>Conceção, design e desenvolvimento: Nuvem K
+        <br/> Texto e imagem por: Francisco Fragoso</p>
+    </div>
+  </div>
+</body>
+<script>
+  leapK('home');   // Leap controller
+  animation(); // Fade in
+  looper(); // Return to homepage
+</script>
+
+</html>

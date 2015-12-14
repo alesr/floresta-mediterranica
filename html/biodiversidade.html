@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Biodiversidade</title>
+  <link rel='stylesheet' type='text/css' href='../css/main.css'>
+  <script src='../scripts/leap-0.6.4.min.js'></script>
+  <script src='../scripts/jquery-1.11.2.min.js'></script>
+  <script src='../scripts/leapK.js'></script>
+  <script src='../scripts/bioHover.js'></script>
+  <script src='../scripts/conf.js'></script>
+</head>
+
+<body id='biodiversidade'>
+  <div id='pageBio'>
+    <div class='topRow'>
+      <p class='floats bio_three bio_title'>CONHEÇA A
+        <br />
+        <strong>BIODIVERSIDADE</strong>
+        <br /> NA FLORESTA
+        <br /> MEDITERRÂNICA
+      </p>
+      <a id='aves' class='floatsBio bio_three' href='content.html#aves'>
+        <img border='0' alt='Aves' src='../images/Biodiversidade/aves.png'>
+      </a>
+      <a id='cogumelos' class='floatsBio bio_three' href='content.html#cogumelos'>
+        <img border='0' alt='Cogumelos' src='../images/Biodiversidade/cogumelos.png'>
+      </a>
+    </div>
+    <div class='bottomRow'>
+      <a id='mamiferos' class='floatsBio bio_three' href='#'>
+        <img border='0' alt='Mamíferos' src='../images/Biodiversidade/mamiferosBrevemente.png'>
+      </a>
+      <a id='plantas' class='floatsBio bio_three' href='content.html#plantas'>
+        <img border='0' alt='Plantas' src='../images/Biodiversidade/plantas.png'>
+      </a>
+      <a id='repteis' class='floatsBio bio_three' href='content.html#repteisAnfibios'>
+        <img border='0' alt='Répteis e Anfíbios' src='../images/Biodiversidade/repteis.png'>
+      </a>
+    </div>
+  </div>
+</body>
+<script>
+  animation(); // Fade in
+  idleTimeout(); // Return to homepage
+  leapK('bio');   // Leap controller
+</script>
+
+</html>

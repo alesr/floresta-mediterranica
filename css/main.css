@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'ConduitITCStd-Light';
+  src: url('/FM/source/fonts/ConduitITCStd-Light.eot');
+  src: url('/FM/source/fonts/ConduitITCStd-Light.eot?#iefix') format('embedded-opentype'),
+       url('/FM/source/fonts/ConduitITCStd-Light.woff') format('woff'),
+       url('/FM/source/fonts/ConduitITCStd-Light.ttf') format('truetype'),
+       url('/FM/source/fonts/ConduitITCStd-Light.svg#ConduitITCStd-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ConduitITCStd-Bold';
+  src: url('/FM/source/fonts/ConduitITCStd-Bold.eot');
+  src: url('/FM/source/fonts/ConduitITCStd-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/FM/source/fonts/ConduitITCStd-Bold.woff') format('woff'),
+  url('/FM/source/fonts/ConduitITCStd-Bold.ttf') format('truetype'),
+  url('/FM/source/fonts/ConduitITCStd-Bold.svg#ConduitITCStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ConduitITCStd-Regular';
+  src: url('/FM/source/fonts/ConduitITCStd-Regular.eot');
+  src: url('/FM/source/fonts/ConduitITCStd-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/FM/source/fonts/ConduitITCStd-Regular.woff') format('woff'),
+       url('/FM/source/fonts/ConduitITCStd-Regular.ttf') format('truetype'),
+       url('/FM/source/fonts/ConduitITCStd-Regular.svg#ConduitITCStd-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  cursor: none;
+}
+
+body{
+  display: none;
+  background-image: url('../images/Homepage/fundoHomepage.png');
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+body,h1,p,img{
+  padding: 0px;
+}
+
+p, a, span, li {
+  font-family: 'ConduitITCStd-Regular';
+  margin: 0;
+}
+
+strong {
+  font-family: 'ConduitITCStd-Bold';
+  font-weight: normal;
+}
+
+a{
+  display: block;
+}
+
+a:hover {
+  cursor: none;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: none;
+}
+
+#pager {
+  position: absolute;
+  z-index: 999;
+  bottom: 0;
+  left: 600px;
+  background-color: black;
+  color: white;
+  padding:15px;
+}
+
+#page, #pageBio{
+  display: block;
+  width: 1480px;
+  margin: 75px auto 0 auto;
+  text-align: center;
+  cursor: none;
+  overflow: hidden;
+}
+
+#biodiversidade {
+  background-image: url('../images/Biodiversidade/fundoBiodiversidade.png');
+}
+
+#clear{
+  clear: both;
+}
+
+#next, #prev{
+  display: none;
+}
+#footer{
+  width: 1440px;
+  margin: 60px auto 0 220px;
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: white;
+}
+
+#pageBio>div {
+  background-color: rgba(255,255,255,0);
+  height: 412px;
+}
+
+#pageBio>div .bold{
+  font-family: 'ConduitITCStd-Bold';
+}
+.floats{
+  float: left;
+}
+.three{
+  width: 480px;
+  height: 410px;
+  background-color: #66bb6a;
+}
+
+.three img {
+  margin-top: 40px;
+}
+.one img {
+  margin-top: 60px;
+}
+.bio_three img {
+  margin-top: 82px;
+}
+
+#obs_natureza img {
+  margin-top: 40px;
+}
+
+.bio_three{
+  width: 470px;
+  height: 412px;
+  margin-right: 15px;
+}
+
+.floatsBio{
+  float: left;
+  background-color: #4db6ac;
+}
+
+.topRow{
+  overflow: hidden;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.bottomRow{
+  overflow: hidden;
+  clear: left;
+}
+
+.one{
+  width: 1440px;
+  height: 410px;
+  margin-top: 15px;
+}
+
+.bio_title {
+  padding-top: 81px;
+  line-height: 1.1;
+  color: white;
+  font-size: 4em;
+  text-align: left;
+  background: none;
+}
+
+.hovered{
+  background-color: #05d6a7;
+}
+
+#four.hovered{
+  background-color: #80cbc4;
+}
+
+#logoProder {
+  background-repeat: no-repeat;
+  float: left;
+  border: 0px;
+  margin-top: 5px;
+  padding-left: 3px;
+}
+#logoGoverno {
+  background-repeat: no-repeat;
+  float: left;
+  border: 0px;
+  margin-top: 5px;
+}
+#logoEuropa {
+  background-repeat: no-repeat;
+  float: left;
+  border: 0px;
+  margin-top: 5px;
+}
+#logoRota {
+  background-repeat: no-repeat;
+  float: left;
+  border: 0px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#logoDesde {
+  background-repeat: no-repeat;
+  float: left;
+  border: 0px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#logoPosto {
+  background-repeat: no-repeat;
+  float: left;
+  border: 0px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#textoFooter {
+  float: right;
+  margin-top: 5px;
+  font-family: 'ConduitITCStd-Regular';
+  font-size: 14px;
+  color: white;
+}
