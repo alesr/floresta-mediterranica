@@ -16,6 +16,7 @@
   url('/FM/source/fonts/ConduitITCStd-Bold.woff') format('woff'),
   url('/FM/source/fonts/ConduitITCStd-Bold.ttf') format('truetype'),
   url('/FM/source/fonts/ConduitITCStd-Bold.svg#ConduitITCStd-Bold') format('svg');
+
   font-weight: normal;
   font-style: normal;
 }
@@ -32,9 +33,9 @@
 }
 
 html, body{
-  margin: 0;
-  padding: 0;
-  cursor: none;
+    margin: 0;
+    padding: 0;
+    cursor: none;
 }
 
 body{
@@ -73,6 +74,7 @@ img{
   cursor: none;
 }
 
+
 #pager {
   position: absolute;
   z-index: 999;
@@ -97,9 +99,8 @@ img{
 }
 
 #clear{
-  clear: both;
+    clear: both;
 }
-
 #next, #prev{
   display: none;
 }
@@ -125,6 +126,7 @@ img{
 .three{
   width: 480px;
   height: 410px;
+  /*margin-bottom: 20px;*/
   background-color: #66bb6a;
 }
 
